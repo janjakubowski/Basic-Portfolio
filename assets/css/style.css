@@ -1,5 +1,116 @@
-<!-- BEGIN CSS -->
-<style>
+body, html {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: teal;
+}
 
-</style>
-<!-- END CSS -->
+footer p {
+  text-align: center;
+}
+
+nav {
+  max-width: 960px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#basic-portfolio-header {
+  max-width: 960px;
+  margin: 0 auto 0 auto;
+  padding: 30px 0;
+  background-color: lawngreen;
+}
+
+#basic-portfolio-footer {
+  max-width: 960px;
+  margin: 0 auto 0 auto;
+  padding: 30px 0;
+  background-color: purple;
+}
+#request-contact-form {
+  max-width: 960px;
+  margin: 0 auto 0 auto;
+  padding: 30px 0;
+  background-color: orangered;
+}
+
+#portfolio-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 0;
+  background-color: peachpuff;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.portfolio-img-size {
+  width: 250px; 
+  height: 300px;
+}
+
+.one-line {
+  max-width: 800px;
+}
+
+#my-name {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: blue);
+}
+
+.header-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar-link {
+  display: block;
+  width: 90px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a.hover {
+  background-color: brown;
+}
+
+#about-me {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 0;
+  background-color: teal;
+}
+
+#about-me-pic-prime {
+  float: left;
+}
+
+#about-me-pic-secondary {
+  float: right;
+}
+
+#portfolio-image {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  margin: 25px auto 25px auto;
+} 
+
+#pic-label {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  text-align: center;
+  background-color: blue;
+  color: lawngreen;
+}
