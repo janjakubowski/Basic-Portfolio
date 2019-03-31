@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <title>portfolio</title>
 
+    <!-- Get rid of those yucky styles coming from who knows where -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <!-- Linking CSS -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     
@@ -13,19 +15,22 @@
 
   <body style="background: url(./assets/images/mosaic.png)">
 
-    <nav id="basic-portfolio-header">
+    <header id="basic-portfolio-header">
+      <nav id="basic-portfolio-header-nav">
 
-        <div id="my-name">
-          <h1>Jan Jakubowski</h1>
-        </div>
-        
-        <ul class="header-links">
-          <li><a class="nav-bar-link" href="./index.html">About</a></li>
-          <li><a class="nav-bar-link" href="./portfolio.html">Profile</a></li>
-          <li><a class="nav-bar-link" href="./contact.html">Contact</a></li>
-        </ul>
+          <div id="my-name">
+            <h1>Jan Jakubowski</h1>
+          </div>
+          
+          <ul class="header-links">
+            <li><a class="nav-bar-link" href="./index.html">About</a></li>
+            <li><a class="nav-bar-link" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="nav-bar-link" href="./contact.html">Contact</a></li>
+            <li><a class="nav-bar-link" href="https://www.linkedin.com/in/janjakubowski"><img src="./assets/images/linkedin.png" alt="LinkedIn"></a></li>
+          </ul>
 
-    </nav>
+      </nav>
+    </header>
 
     <container id="portfolio-container">
 
@@ -71,9 +76,9 @@
     </container>
 
     <footer id="basic-portfolio-footer">
-        <p>Copyright 2019 Double Black Diamond Consulting</p>
-      </footer>
-      
+      <p>&#9400;2019 Double Black Diamond Consulting</p>
+    </footer>
+
   </body>
 
 </html>
